@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>NewCube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>m10uxDyORu0T8zoMs8xuWlH2VuE=2016-04-04 6:44:48 PM2016-04-04 6:44:26 PM</TimeStamp>
+        <ID>
+          <String>DESKTOP-9NRD0VC</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>PWYuyLCpparG/I0OgBL6uFiHN+c=2016-04-20 10:21:11 PM2016-04-06 1:12:36 AM</TimeStamp>
+        <ID>
+          <String>CRAWDA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nxc53h5kKWfk7ADiFZBj86neQcI=2016-04-06 1:14:07 AM2016-04-06 1:14:07 AM</TimeStamp>
+        <ID>
+          <String>Year</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Bn5ZZiMVXN75LLN8qfLQTrtgXjk=2016-04-06 1:14:08 AM2016-04-06 1:14:07 AM</TimeStamp>
+        <ID>
+          <String>Map</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FUoE0aIN9XLQfdFfZ83eKh6DQ7U=2016-04-06 2:01:43 AM2016-04-06 1:14:07 AM</TimeStamp>
+        <ID>
+          <String>Month</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0e4RicubHv9e6kox9QVd/cc9BbY=2016-04-06 2:02:11 AM2016-04-06 1:14:07 AM</TimeStamp>
+        <ID>
+          <String>Crime Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uaHxBalMMXajYJs0lf+H3057x4U=2016-04-20 10:25:29 PM2016-04-20 10:24:18 PM</TimeStamp>
+        <ID>
+          <String>Neighbourhood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZGHLB1r4XwCSvzGDzOoOEE7rqYs=2016-04-21 6:02:14 AM2016-04-06 1:14:07 AMA03asV35LbuvpoUU3FthCK/3Moo=2016-04-21 6:02:13 AM2016-04-06 1:14:07 AM</TimeStamp>
+        <ID>
+          <String>CRAWDA</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>aoz64hwN28RcG6/zQSbkWPZApRk=2016-04-04 6:43:37 PM2016-04-04 6:43:36 PM</TimeStamp>
+      <ID>
+        <String>NewCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-21T13:02:25.066667Z</LastDeployed>
+</DeploymentSnapshot>
